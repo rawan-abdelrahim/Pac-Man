@@ -26,7 +26,7 @@ This game brings to life the retro experience of arcade gaming with a modern, cl
 -----
 
 ## Table of Contents
-* [Getting Started](#getting-started)
+* [Getting Started](#-getting-started)
 * [Game Mechanics & Algorithms](#game-mechanics--algorithms)
   * [Collision Detection](#collision-detection)
   * [Movement and Wall Interaction](#movement-and-wall-interaction)

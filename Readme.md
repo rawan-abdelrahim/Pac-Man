@@ -38,8 +38,11 @@ This game brings to life the retro experience of arcade gaming with a modern, cl
 * [Credits](#credits)
   
 -----
+
 ## 🚀 Getting Started
 Play the live Pac-Man game [here](https://rawan-abdelrahim.github.io/Pac-Man/)!
+
+
 -----
 
 ## Game Mechanics & Algorithms

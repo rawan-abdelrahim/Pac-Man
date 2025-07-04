@@ -36,6 +36,7 @@ This game brings to life the retro experience of arcade gaming with a modern, cl
 * [Code Structure](#code-structure)
 * [Future Enhancements](#future-enhancements)
 * [Credits](#credits)
+* [Getting Started](#getting-started)
 -----
 
 ## Game Mechanics & Algorithms

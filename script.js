@@ -336,6 +336,3 @@ class Block {
     this.y = this.startY;
   }
 }
-
-~
-

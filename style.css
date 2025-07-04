@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    background-image: url("./resources/space.png");
+
+}
+
+#board{
+    margin-top: 3%;
+    background-color: rgb(46, 46, 46);
+}

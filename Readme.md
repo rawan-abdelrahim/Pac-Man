@@ -36,6 +36,10 @@ This game brings to life the retro experience of arcade gaming with a modern, cl
 * [Code Structure](#code-structure)
 * [Future Enhancements](#future-enhancements)
 * [Credits](#credits)
+  
+-----
+## 🚀 Getting Started
+Play the live Pac-Man game [here](https://rawan-abdelrahim.github.io/Pac-Man/)!
 -----
 
 ## Game Mechanics & Algorithms
@@ -157,6 +161,4 @@ The game's code is organized into several key functions and a `Block` class:
   * **Game Logic & Code:** \[Your Name/Alias]
   * **Images:** Provided in the `./resources/` directory. (Attribution if specific sources are required).
 
------
-## 🚀 Getting Started
-Play the live Pac-Man game [here](https://rawan-abdelrahim.github.io/Pac-Man/)!
+

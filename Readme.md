@@ -158,5 +158,5 @@ The game's code is organized into several key functions and a `Block` class:
   * **Images:** Provided in the `./resources/` directory. (Attribution if specific sources are required).
 
 -----
-### 🚀 Getting Started
+## 🚀 Getting Started
 Play the live Pac-Man game [here](https://rawan-abdelrahim.github.io/Pac-Man/)!

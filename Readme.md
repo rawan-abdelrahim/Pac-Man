@@ -1,37 +1,41 @@
-# Pac-Man: A JavaScript Classic
+# 🟡 Pac-Man Clone – JavaScript Canvas Game
+
+Welcome to a custom-built **Pac-Man**-style game using pure **JavaScript** and the **HTML5 Canvas API**! 🎮
+
+This game brings to life the retro experience of arcade gaming with a modern, clean design. It includes classic features like ghost movement, teleporting tunnels, food collection, and lives — all powered by collision detection and game loops.
+
+## 🧠 Game Overview
+
+- **Grid-based Movement**
+  Players and ghosts move on a grid made from a character-based `tileMap`. Each tile is 32x32 pixels, and the board is dynamically sized based on this map.
+
+- **Game Characters**
+  - 🟡 **Pac-Man**: Controlled by the player via arrow keys or WASD.
+  - 👻 **Ghosts**: Move in random directions and reset when colliding with walls.
+  - 🍒 **Food Pellets**: Scattered across the board and increase your score when collected.
+
+## 🧩 Core Features
+
+- 🔄 Continuous game loop using `setTimeout` with `Update()`
+- 🧱 Collision detection for walls, ghosts, and food
+- ↕️ Direction queuing and validation (you can press a direction before a turn is available!)
+- 🌐 Teleportation through left/right tunnel exits
+- 💀 Ghost collision triggers life loss and game over logic
+
 
 -----
 
 ## Table of Contents
 
-  * [Introduction](https://www.google.com/search?q=%23introduction)
-  * [How to Play](https://www.google.com/search?q=%23how-to-play)
-  * [Game Mechanics & Algorithms](https://www.google.com/search?q=%23game-mechanics--algorithms)
-      * [Collision Detection](https://www.google.com/search?q=%23collision-detection)
-      * [Movement and Wall Interaction](https://www.google.com/search?q=%23movement-and-wall-interaction)
-      * [Ghost AI (Simple Random Movement)](https://www.google.com/search?q=%23ghost-ai-simple-random-movement)
-      * [Game State Management](https://www.google.com/search?q=%23game-state-management)
-      * [Map Loading and Object Management](https://www.google.com/search?q=%23map-loading-and-object-management)
-  * [Code Structure](https://www.google.com/search?q=%23code-structure)
-  * [Future Enhancements](https://www.google.com/search?q=%23future-enhancements)
-  * [Credits](https://www.google.com/search?q=%23credits)
-
------
-
-## Introduction
-
-Relive the arcade classic right in your browser with this faithful JavaScript implementation of Pac-Man\! Navigate our hero through a maze, gobbling up pellets, and avoiding the dreaded ghosts. This project aims to demonstrate fundamental game development concepts using pure JavaScript, HTML, and CSS.
-
------
-
-## How to Play
-
-  * **Objective:** Eat all the small white "food" pellets on the board without being caught by a ghost.
-  * **Movement:** Use the **Arrow Keys (Up, Down, Left, Right)** or **W, A, S, D** to control Pac-Man.
-  * **Lives:** You start with 3 lives. If a ghost catches Pac-Man, you lose a life.
-  * **Game Over:** The game ends when you lose all your lives.
-  * **Winning:** Clear the board of all pellets to advance to the next "level" (the map reloads, and positions reset).
-
+* [Game Mechanics & Algorithms](#game-mechanics--algorithms)
+  * [Collision Detection](#collision-detection)
+  * [Movement and Wall Interaction](#movement-and-wall-interaction)
+  * [Ghost AI (Simple Random Movement)](#ghost-ai-simple-random-movement)
+  * [Game State Management](#game-state-management)
+  * [Map Loading and Object Management](#map-loading-and-object-management)
+* [Code Structure](#code-structure)
+* [Future Enhancements](#future-enhancements)
+* [Credits](#credits)
 -----
 
 ## Game Mechanics & Algorithms
